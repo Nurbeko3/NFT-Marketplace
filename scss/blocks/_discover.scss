@@ -1,0 +1,118 @@
+.discover-section{
+    padding: 80px 0;
+}
+
+
+.discover{
+    display: flex;
+    align-items: center;
+}
+.discover__title-common{
+    width: 763px;
+    padding-bottom: 60px;
+}
+
+.discover-title{
+    color: var(--White, #FFF);
+    
+    /* H3 - Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+}
+.discover-text{
+    color: var(--White, #FFF);
+    
+    /* Body Text- Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+}
+.discover-btn{
+    color: #A259FF;
+    padding: 20px 50px 20px 82px;
+    margin-left: 100px;
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+    background-image: url(../../images/discover/Eye.svg);
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 19px;
+    transition: all 0.5s ease;
+}
+.discover-btn:hover{
+    color: white;
+    background-color: #A259FF;
+    background-image: url(../images/discover/Eye\ hover.svg);
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 19px;
+}
+.discover__cards-common{
+    display: flex;
+    gap: 30px;
+}
+.discover-card{
+    width: 330px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+.discover__card-title{
+    color: var(--White, #FFF);
+    padding: 20px 30px 5px;
+    /* H5 - Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+}
+.discover__card-info{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+.discover__ava-title{
+    color: var(--White, #FFF);
+    padding-left: 12px;
+    /* Base (Body) - Space Mono */
+    font-family: Space Mono , monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.discover-main{
+    padding: 0 30px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.discover__price-title{
+    color: #858584;
+    padding-bottom: 8px;
+    /* Caption - Space Mono */
+    font-family: Space Mono , monospace;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}
+.discover-ETH{
+    color: var(--White, #FFF);
+    
+    /* Base (Body) - Space Mono */
+    font-family: Space Mono , monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}

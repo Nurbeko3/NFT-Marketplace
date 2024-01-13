@@ -1,0 +1,139 @@
+.creator-section{
+    padding: 80px 0;
+}
+
+
+.creator{
+    display: flex;
+    align-items: center;
+}
+.creator__title-common{
+    width: 703px;
+    padding-bottom: 60px;
+}
+.creator-title{
+    color: var(--White, #FFF);
+    
+    /* H3 - Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+}
+.creator-text{
+    color: var(--White, #FFF);
+    padding-top: 10px;
+    /* Body Text- Work Sans */
+    font-family: Work Sans ,sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+}
+.creator-btn{
+    color: #A259FF;
+    padding: 20px 50px 20px 82px;
+    margin-left: 100px;
+    text-align: center;
+    font-family: Work Sans , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+    background-image: url(../images/hero/RocketLaunch\ -\ hover.svg);
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 20px;
+    transition: all 0.5s ease;
+}
+.creator-btn:hover{
+    color: white;
+    background-color: #A259FF;
+    border: 2px solid #A259FF;
+    background-image: url(../../images/hero/RocketLaunch.svg);
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 20px;
+}
+.creator__common-cards{
+    display: flex;
+    gap: 30px;
+}
+.creator-card{
+    width: 240px;
+    height: 240px;
+    position: relative;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+.card-btn{
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    padding: 4px 10px;
+    color: var(--caption-label-text, #858584);
+    text-align: center;
+    
+    /* Base (Body) - Space Mono */
+    font-family: Space Mono , monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    background-color: #2B2B2B;
+    border-radius: 50%;
+    border: none;
+    transition: all 0.5s ease;
+}
+.card-btn:hover{
+    background-color: white;
+}
+.card-avatar{
+    margin: 20px 65px;
+}
+.card-title{
+    color: #FFF;
+    text-align: center;
+    /* H5 - Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+}
+.creator-card-info{
+    width: 200px;
+    display: flex;
+}
+.card-text{
+    color: var(--caption-label-text, #858584);
+    text-align: center;
+    
+    /* Base(Body) - Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.sales{
+    color: var(--Text, #FFF);
+    
+    /* Base (Body) - Space Mono */
+    font-family: Space Mono , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.creator__common-cards2{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}

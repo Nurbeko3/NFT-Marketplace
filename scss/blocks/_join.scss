@@ -1,0 +1,72 @@
+.join-section{
+    padding: 40px 0 80px;
+}
+.join{
+    display: flex;
+    padding: 60px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+.join-content{
+    width: 425px;
+    margin-left: 80px;
+}
+.join-title{
+    color: var(--White, #FFF);
+    padding-bottom: 10px;
+    /* H3 - Work Sans */
+    font-family: Work Sans ,sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+}
+.join-text{
+    color: var(--White, #FFF);
+    
+    /* Body Text- Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+}
+.join-form{
+    border: none;
+}
+.join-form > input{
+    margin-top: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 16px 12px 16px 20px;
+}
+.join__form-btn{
+    margin-top: 20px;
+    padding: 20px 50px 20px 82px;
+    border: 2px solid #A259FF;
+    background-color: #A259FF;
+    border-radius: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    background-image: url(../images/join/mail-icon.svg);
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 19px;
+    transition: all 0.5s ease;
+}
+.join__form-btn:hover{
+    color: #A259FF;
+    background: transparent;
+    border: 2px solid #A259FF;
+    background-image: url(../images/join/mail-icon\ hover.svg);
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 19px;
+}

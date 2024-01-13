@@ -1,0 +1,82 @@
+.trend-section{
+    padding: 80px 0;
+}
+.trend-title{
+    color: var(--White, #FFF);
+    padding-bottom: 10px;
+    /* H3 - Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+}
+.trend-text{
+    color: var(--White, #FFF);
+    padding-bottom: 60px;
+    /* Body Text- Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+}
+.trend-main{
+    display: flex;
+    gap: 30px;
+}
+.animal-pics{
+    display: flex;
+    gap: 15px;
+    padding: 15px 0;
+}
+.animal-btn{
+    color: #FFF;
+    text-align: center;
+    padding: 32px 15px;
+    /* H5 - Space Mono */
+    font-family: Space Mono , monospace;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+    background-color: #A259FF;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: all 0.5s ease;
+}
+.animal-btn:hover{
+    color: #A259FF;
+    background: transparent;
+    border: 2px solid #A259FF;
+}
+.animal-title{
+    color: #FFF;
+    padding-bottom: 10px;
+    /* H5 - Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+}
+.animal-info{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.animal-info span{
+    padding-left: 12px;
+    color: #FFF;
+    
+    /* Base(Body) - Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}

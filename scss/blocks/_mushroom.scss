@@ -1,0 +1,119 @@
+.mushroom{
+    display: flex;
+    justify-content: space-between;
+    padding: 360px 165px 60px;
+    background-image: url(../images/mushroom/MUSHROOM-BG.png);
+    background-repeat: no-repeat;
+}
+.shroomie{
+    width: 151px;
+    display: flex;
+    align-items: center;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+.shroomie-img{
+    padding-left: 20px;
+}
+.shroomie-text{
+    padding: 10px 20px 12px;
+    color: #FFF;
+    
+    /* Base(Body) - Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.mushroom-title{
+    color: #FFF;
+    padding-bottom: 30px;
+    margin: 30px 0;
+    /* H3 - Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+}
+.mushroom-btn{
+    color: black;
+    padding: 20px 50px 20px 82px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url(../../images/discover/Eye.svg);
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 19px;
+    border: 2px solid transparent;
+    transition: all 0.5s ease;
+}
+.mushroom-btn:hover{
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    background-image: url(../../images/discover/Eye\ hover.svg);
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 19px;
+}
+.mushroom-clock{
+    width: 300px;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(59, 59, 59, 0.50);
+    backdrop-filter: blur(5px);
+}
+.clock-text{
+    color: var(--Text, #FFF);
+    padding-bottom: 10px;
+    /* Caption - Space Mono */
+    font-family: Space Mono , monospace;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}
+.clock-time{
+    color: var(--Text, #FFF);
+    
+    /* H3 - Space Mono */
+    font-family: Space Mono , monospace;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+}
+.clock-dot{
+    color: var(--Text, #FFF);
+    
+    /* H4 - Space Mono */
+    font-family: Space Mono , monospace;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 39.2px */
+    text-transform: capitalize;
+}
+.clock-letters{
+    display: flex;
+    gap: 38px;
+}
+.clock-hour{
+    color: var(--Text, #FFF);
+    
+    /* Caption - Space Mono */
+    font-family: Space Mono , monospace;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}
+.clock-numbers{
+    display: flex;
+    gap: 10px;
+}

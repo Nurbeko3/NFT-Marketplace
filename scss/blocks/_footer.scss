@@ -1,0 +1,101 @@
+.site-footer{
+    padding: 40px 0;
+    background-color: #3B3B3B;
+}
+.footer{
+    display: flex;
+    padding-bottom: 30px;
+}
+.footer__logo-common{
+    width: 238px;
+}
+.footer-logo-text{
+    margin-top: 30px;
+    padding-bottom: 20px;
+    color: #CCC;
+    
+    /* Base(Body) - Work Sans */
+    font-family: Work Sans , monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.footer-join-text{
+    color: #CCC;
+    padding-bottom: 15px;
+    /* Base(Body) - Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.footer-list{
+    width: 240px;
+    margin-left: 84px;
+}
+.font-change{
+    color: #FFF;
+    padding-bottom: 25px;
+    /* H5 - Space Mono */
+    font-family: Space Mono , sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+}
+.footer__item-link{
+    color: #CCC;
+    
+    /* Base(Body) - Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.footer-item + .footer-item{
+    margin-top: 20px;
+}
+.footer-content{
+    width: 340px;
+}
+.footer__content-title{
+    color: #FFF;
+    
+    /* H5 - Space Mono */
+    font-family: Space Mono , monospace;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+}
+.footer__content-text{
+    color: #CCC;
+    
+    /* Base(Body) - Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.footer-line{
+    width: 1050px;
+    height: 2px;
+    background-color: #CCC;
+    display: inline-block;
+}
+.footer-last-text{
+    color: #CCC;
+    padding-top: 20px;
+    /* Caption - Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}

@@ -1,0 +1,41 @@
+.browse-section{
+    padding: 80px 0;
+}
+
+.browse__title-common{
+    padding-bottom: 60px;
+}
+
+.browse-title{
+    color: var(--White, #FFF);
+    
+    /* H3 - Work Sans */
+    font-family: Work Sans , sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+}
+.browse__common-cards{
+    display: flex;
+    gap: 30px;
+}
+.browse__common-cards + .browse__common-cards{
+    margin-top: 30px;
+}
+.browse-card{
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+.browse-card-title{
+    color: var(--White, #FFF);
+    padding: 20px 30px 25px;
+    /* H5 - Work Sans */
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+}
