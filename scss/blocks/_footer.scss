@@ -88,6 +88,10 @@
     height: 2px;
     background-color: #CCC;
     display: inline-block;
+    transition: 0.5s;
+}
+.footer-line:hover {
+    background-color: #A259FF;
 }
 .footer-last-text{
     color: #CCC;
